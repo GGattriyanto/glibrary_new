@@ -73,7 +73,7 @@ class HomeView extends GetView<HomeController> {
                   return Card(
                     child: InkWell(
                       onTap:  (){
-                        Get.toNamed(Routes.BOOK);
+                        Get.toNamed(Routes.DETAIL_BOOK);
                       },
                       child: Container(
                         height: 290,
